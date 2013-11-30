@@ -16,7 +16,7 @@ try
 		else
 			tell application "Terminal"
 				activate
-				do script "$CD_CMD"
+				do script "$CD_CMD" in front window
 			end tell
 		end if
 	end tell
